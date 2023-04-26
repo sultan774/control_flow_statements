@@ -10,4 +10,19 @@
     Returns:
         boolean: True if the resulting number is less than or equal to the old number, otherwise return False. */
 
-void main() {}
+bool func(int a){
+    int b = a;
+    int x1, x2, x3;
+    x1 = a % 12;
+    a ~/= 12;
+    x3 = x1 * 12 + a;
+    if (b > x3){
+        return true;
+    }
+        return false;
+    
+    
+}
+void main() {
+    print(func(43));
+}
